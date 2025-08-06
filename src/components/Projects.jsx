@@ -290,7 +290,7 @@ const Projects = () => {
       description: "A Collection of projects that include detailed notes and web scraping code snippets with Selenium, Bs4, and requests.",
       tech: ["Python", "Selenium", "BS4", "Web Crawling", "Pandas","Imports"],
       github: "https://github.com/Mhuzaifaiqbal/Selenium-Projects",
-      live: "#",
+      live: "https://github.com/Mhuzaifaiqbal/Selenium-Projects",
       icon: FaSpider ,
       gradient: "bg-gradient-cyber"
     },
@@ -299,8 +299,8 @@ const Projects = () => {
       title: "E-Commerce Website",
       description: "A Full fledge E-Commerce website made with React + Type Script, including interactive features, captivating UI and styles with an animated purple theme.",
       tech: ["React", "Type Script", "Tailwind CSS"],
-      github: "https://futurestoree.netlify.app/",
-      live: "#",
+      github: "https://github.com/Mhuzaifaiqbal/Ecommerce-Wesbite",
+      live: "https://futurestoree.netlify.app/",
       icon: FaCode ,
       gradient: "bg-gradient-cyber"
     }
