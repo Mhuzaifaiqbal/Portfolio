@@ -296,10 +296,10 @@ const Projects = () => {
     },
     {
       id: 6,
-      title: "E-Commerce Web Development",
+      title: "E-Commerce Website",
       description: "A Full fledge E-Commerce website made with React + Type Script, including interactive features, captivating UI and styles with an animated purple theme.",
       tech: ["React", "Type Script", "Tailwind CSS"],
-      github: "https://github.com/Mhuzaifaiqbal/Selenium-Projects",
+      github: "https://futurestoree.netlify.app/",
       live: "#",
       icon: FaCode ,
       gradient: "bg-gradient-cyber"
