@@ -93,6 +93,7 @@ const Education = () => {
             My academic journey throughout the years
           </p>
         </motion.div>
+        <br />
 
         <div className="space-y-8">
           {education.map((edu, index) => (
@@ -111,6 +112,7 @@ const Education = () => {
                       <GraduationCap className="w-6 h-6 text-primary" />
                     </div>
                   </div>
+             
 
                   <div className="flex-1">
                     <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
@@ -174,11 +176,12 @@ const Education = () => {
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Certifications that validate my skills and expertise.
           </p>
+          <br />
         </motion.div>
-
-        <div className="space-y-6">
+<div className="space-y-6">
           {certificates.map((cert, idx) => (
-            <motion.div
+            <
+        motion.div
               key={idx}
               initial={{ opacity: 0, x: idx % 2 === 0 ? -50 : 50 }}
               whileInView={{ opacity: 1, x: 0 }}
