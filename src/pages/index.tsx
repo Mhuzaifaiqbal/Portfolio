@@ -45,21 +45,7 @@ const Index = () => {
       <main className="relative z-10">
         <Hero />
         <About />
-             <section className="py-20 px-6">
-          <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold text-foreground mb-4">
-                Featured Work
-              </h2>
-              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Explore my latest projects with an interactive 3D carousel experience
-              </p>
-            </div>
-                  <InfiniteCarousel items={carouselItems} autoPlay={true} />
-
-          </div>
-        </section>
-        
+           
         <br />
         <Education />
         <br />
