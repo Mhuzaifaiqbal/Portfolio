@@ -280,9 +280,9 @@ const InfiniteCarousel: React.FC<Props> = ({
   return (
     <div className="w-full">
       <div
-       className="relative w-full overflow-visible max-w-full sm:max-w-screen-md md:max-w-screen-lg mx-auto"
-  style={{ margin: "auto" }}
->
+        className="relative w-full overflow-visible"
+        style={{ maxWidth: "1200px", margin: "auto" }}
+      >
         {showControls && (
           <>
             <button
